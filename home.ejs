@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books collection</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+ <div class="wrapper">
+  <div class="ui menu">
+    <div class="ui contaner">
+      
+      <div class="ui menu">
+        <div class="header item">
+          
+          <a href="/" class="link">HOME</a>
+        </div>
+        <a class="item">
+          id
+        </a>
+        <a class="item">
+          About Us
+        </a>
+        <a class="item">
+          title
+        </a>
+        <a class="item">
+          department
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="ui contaner">
+    <form action="/add" class="ui form" method="post">
+      <div class="ui three fields">
+        <div class="field">
+          <label for="department" class="ui header green"> Enter your department name</label>
+          <input type="text" name="department">
+      
+        </div>
+        <div class="field">
+          <label for="department" class="ui header green"> Enter your id</label>
+          <input type="text" name="department">
+      </div>
+      <div class="ui fluid field">
+        <input type="text"value="Submit" class="ui button green fluid">
+      </div>
+      <div class="field">
+        <label for="department" class="ui header green"> Enter your title</label>
+        <input type="text" name="department">
+    </form>
+    <br><br>
+    <table class="ui table">
+      <thead>
+        <th>id</th>
+        <th>title</th>
+        <th>department</th>
+      </thead>
+    </table>
+
+  </div>
+  
+
+ </div>   
+    
+    <script src="/js/semantic.min.js"></script>
+</body>
+</html>
